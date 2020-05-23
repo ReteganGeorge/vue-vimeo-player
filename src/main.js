@@ -49,6 +49,9 @@ export default {
     },
     controls: {
       default: true
+    },
+    background: {
+      default: 0
     }
   },
   render (h) {
@@ -108,7 +111,8 @@ export default {
       height: this.playerHeight,
       loop: this.loop,
       autoplay: this.autoplay,
-      controls: this.controls
+      controls: this.controls,
+      background: this.background
     }
     if (this.videoUrl) { options.url = this.videoUrl }
 
