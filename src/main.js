@@ -51,7 +51,7 @@ export default {
       default: true
     },
     background: {
-      default: 0
+      default: 1
     }
   },
   render (h) {
